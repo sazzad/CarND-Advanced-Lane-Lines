@@ -12,12 +12,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/image1.jpg "Undistorted"
-[image2]: ./output_images/image2.jpg "Road Transformed"
-[image3]: ./output_images/image3.jpg "Binary Example"
-[image4]: ./output_images/image4.jpg "Warp Example"
-[image5]: ./output_images/image5.jpg "Fit Visual"
-[image6]: ./output_images/image6.jpg "Output"
+[image1]: ./output_images/image_1.jpg "Undistorted"
+[image2]: ./output_images/image_2.jpg "Road Transformed"
+[image3]: ./output_images/image_3.jpg "Binary Example"
+[image4]: ./output_images/image_4.jpg "Warp Example"
+[image5]: ./output_images/image_5.jpg "Fit Visual"
+[image6]: ./output_images/image_6.jpg "Output"
 [video1]: ./output_images/project_video.mp4 "Video"
 
 ## Rubric Points
