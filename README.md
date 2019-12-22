@@ -50,14 +50,14 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 The code for this step is contained in "Distortion Correction" section of the IPython notebook located in "advanced_lane_detection.ipynb".  
 
-To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
+To demonstrate this step, the following image shows how distortion is corrected on the image leveraging calibration parameters. 
 ![alt text][image2]
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
 The code for this step is contained in "Color Transform" section of the IPython notebook located in "advanced_lane_detection.ipynb".  
 
-I used a combination of color and gradient thresholds to generate a binary image.  Here's an example of my output for this step.  (note: this is not actually from one of the test images)
+I used a combination of color and gradient thresholds to generate a binary image.  Here's an example of my output for this step.
 
 ![alt text][image3]
 
@@ -65,7 +65,7 @@ I used a combination of color and gradient thresholds to generate a binary image
 
 The code for this step is contained in "Perspective Transform" section of the IPython notebook located in "advanced_lane_detection.ipynb". 
 
-The `warper()` function takes as inputs an image (`img`), as well as source (`src`) and destination (`dst`) points.  I chose the hardcode the source and destination points in the following manner:
+First, I find the homography with the following hardcoded src and dest coordinaets: 
 
 ```python
     src = np.float32([ [600, 460], [750, 460], [280, 700], [1150, 700] ])
